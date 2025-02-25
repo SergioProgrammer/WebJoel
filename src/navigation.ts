@@ -24,90 +24,73 @@ export const headerData = {
       ],
     },
     {
-      text: 'TOP influencers',
+      text: 'Por Grupos Musculares',
       links: [
         {
-          text: 'Features (Anchor Link)',
+          text: 'Brazos',
           href: getPermalink('/#features'),
         },
         {
-          text: 'Services',
+          text: 'Pecho',
           href: getPermalink('/services'),
         },
         {
-          text: 'Pricing',
+          text: 'Espalda',
           href: getPermalink('/pricing'),
         },
         {
-          text: 'About us',
+          text: 'Pierna',
           href: getPermalink('/about'),
         },
         {
-          text: 'Contact',
+          text: 'Abdominales',
           href: getPermalink('/contact'),
         },
         {
-          text: 'Terms',
+          text: 'Rostro',
           href: getPermalink('/terms'),
         },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
+       
       ],
     },
     {
       text: 'Nutrición',
       links: [
         {
-          text: 'Lead Generation',
+          text: 'Desayunos',
           href: getPermalink('/landing/lead-generation'),
         },
         {
-          text: 'Long-form Sales',
+          text: 'Almuerzos',
           href: getPermalink('/landing/sales'),
         },
         {
-          text: 'Click-Through',
+          text: 'Cenas',
           href: getPermalink('/landing/click-through'),
         },
         {
-          text: 'Product Details (or Services)',
+          text: 'Postres',
           href: getPermalink('/landing/product'),
         },
         {
-          text: 'Coming Soon or Pre-Launch',
+          text: 'Suplementación',
           href: getPermalink('/landing/pre-launch'),
         },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
+        
       ],
     },
     {
       text: 'Blog',
       links: [
         {
-          text: 'Blog List',
+          text: 'Lista de blogs',
           href: getBlogPermalink(),
         },
         {
-          text: 'Article',
+          text: 'Últimos artículos',
           href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
         },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
+        
       ],
     },
    
